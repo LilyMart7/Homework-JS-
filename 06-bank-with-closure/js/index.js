@@ -38,10 +38,10 @@ function GetPersentRate(){
     document.querySelector(".id_input").innerHTML = id_input;
 
     var your_percent_input = amount_input * percent_input / 100;
-    document.querySelector(".your_percent_input").innerHTML = your_percent_input + " $";
+    document.querySelector(".your_percent_input").innerHTML = Number(your_percent_input).toFixed(0) + " $";
 
     var total_amount_input = amount_input + your_percent_input;
-    document.querySelector(".total_amount_input").innerHTML = total_amount_input + " $";
+    document.querySelector(".total_amount_input").innerHTML = Number(total_amount_input).toFixed(0) + " $";
 
     var amount_month_input = (amount_input + your_percent_input) / period_input;
     document.querySelector(".amount_month_input").innerHTML = Number(amount_month_input).toFixed(0) + " $";
