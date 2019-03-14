@@ -44,7 +44,8 @@ function GetPersentRate(){
     document.querySelector(".total_amount_input").innerHTML = total_amount_input + " $";
 
     var amount_month_input = (amount_input + your_percent_input) / period_input;
-    document.querySelector(".amount_month_input").innerHTML = amount_month_input + " $";
+    document.querySelector(".amount_month_input").innerHTML = Number(amount_month_input).toFixed(0) + " $";
+
 }
 return InputData();
 }
