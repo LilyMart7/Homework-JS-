@@ -1,0 +1,22 @@
+.amounts{
+    margin-top: 20px;
+    color: brown;
+    font-weight: bold;
+  }
+
+  .amount{
+      border: 2px dashed #007bff;
+  }
+
+p{
+    color: brown;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+ol{
+    padding-left: 0;
+    color: brown;
+    margin-left: 15px;
+}  

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Get your speed</title>
+</head>
+
+<body>
+
+    <div class="container-fluid back">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 main">
+                    <div class="form-group">
+                        <label><i class="fas fa-award"></i>Distance</label>
+                        <input type="number" class="form-control distance" placeholder="Enter Distance in meters">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label><i class="far fa-clock"></i>Time</label>
+                        <input type="number" class="form-control time" placeholder="Enter running time in min">
+                    </div>
+
+                    <div class="Check-speed">
+                        <button class="btn btn-primary" onclick="GetSpeed()"><i class="fas fa-running"></i>Check
+                            speed</button>
+                    </div>
+
+                    <div class="form-group last">
+                        <label><i class="fas fa-angle-double-right"></i>Your Speed is:<i class="fas fa-angle-double-left"></i></label>
+                        <div class="result"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/index.js"></script>
+
+</body>
+
+</html>

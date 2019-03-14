@@ -1,0 +1,75 @@
+.main{
+    margin-top: 25px;
+}
+
+.result{
+    padding: 10px;
+    border: 1px dashed #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.back{
+    height: 500px;
+    background: #ADADAD;
+    background-position: bottom;
+   background-size: contain;
+}
+
+.distance{
+    padding: 10px;
+    border: 5px double darkslateblue;
+    border-radius: 10px;
+    color: darkslategray;   
+}
+
+
+.time{
+    padding: 10px;
+    border: 5px double darkslateblue;
+    border-radius: 10px;
+    color: darkslategray;   
+}
+
+.fa-award{
+    margin-right: 5px;  
+}
+
+.fa-clock{
+    margin-right: 5px;
+}
+
+.btn-primary{
+    background: #83677B;
+    border: 5px double darkslateblue;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.btn-primary i{
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.btn-primary:hover{
+    background-color: #64485C;
+    border: 5px double #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+label{
+    color: #ffffff;  
+}
+
+i{
+    color: #ffffff;
+}
+
+.last{
+    margin-top: 15px;
+}
+
+.last i{
+    margin: 0 10px;
+}
