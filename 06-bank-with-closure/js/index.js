@@ -20,10 +20,8 @@ function GetPersentRate(){
     var percent_input = Math.floor(Math.random() * 20) + 1;
     document.querySelector(".percent_input").innerHTML = percent_input;
 
-    return percent_input;
-}
-
-function InputData() {
+   
+    function InputData() {
     var name_input = document.querySelector(".name").value;
     document.querySelector(".name_input").innerHTML = name_input;
 
@@ -39,11 +37,16 @@ function InputData() {
     var id_input = parseInt(document.querySelector(".id").value);
     document.querySelector(".id_input").innerHTML = id_input;
 
+    var your_percent_input = amount_input * percent_input / 100;
+    document.querySelector(".your_percent_input").innerHTML = your_percent_input + " $";
+
     var total_amount_input = amount_input + your_percent_input;
     document.querySelector(".total_amount_input").innerHTML = total_amount_input + " $";
 
     var amount_month_input = (amount_input + your_percent_input) / period_input;
     document.querySelector(".amount_month_input").innerHTML = amount_month_input + " $";
+}
+return InputData();
 }
 
 function Validate(name, surname, amount, period, id) {
@@ -79,8 +82,8 @@ function Validate(name, surname, amount, period, id) {
     else {
         var name = name;
         console.log("SUCCSSES!");
-
-        InputData(name, surname, amount, period, id);
+        GetPersentRate();
+       
     }
 
 }
