@@ -1,0 +1,87 @@
+body{
+    background: #254E58;
+}
+
+.inputs{
+background: #112D32;
+height: 360px;
+padding: 0 30px;
+border-radius: 10px;
+}
+
+.inputs label{
+    color: #88BDBC;
+}
+
+.one{
+    margin-top: 30px;
+    padding-top: 25px;
+}
+
+.two{
+    margin-top: 20px;
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 40px;
+    font-size: 17px;
+    padding-left: 10px;
+    color: #F2F2F2;
+    margin-top: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #88BDBC;
+}
+
+h1 i{
+    color: #88BDBC;
+    margin-top: 6px;
+}
+
+.info{
+    border: 1.5px dashed #F2F2F2;
+    border-radius: 10px;
+    height: 40px;
+    color: #EDEAE5;
+    padding-top: 4px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-row{
+    display: flex;
+    align-items: center;
+}
+
+
+i{
+    margin-right: 10px;
+    color: #88BDBC;
+}
+
+.btn-prim{
+    width: 48%;
+    margin-top: 15px;
+    background: #254E58;
+    color: #88BDBC;
+    border: none;
+}
+
+.btn-prim:hover{
+  background: #222629;
+}
+
+.month{
+    padding: 0;
+}
