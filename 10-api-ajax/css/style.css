@@ -1,0 +1,33 @@
+body{
+    color: #494B68;
+    background: #022140;
+}
+
+h1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-warn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.btn-warning{
+    background:#494B68;
+    color: #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #CCCCCC;
+}
+
+.btn-warning:hover{
+    background:#CCCCCC;
+    color: #494B68;
+    border:1px solid #494B68;
+}
